@@ -1,0 +1,10 @@
+{
+   "scripts":{"build": "tailwindcss -i ./src/input.css -o ./dist/output.css -w"},
+  
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "daisyui": "^2.51.3"
+  }
+}

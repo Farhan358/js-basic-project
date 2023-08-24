@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btnCenter{
+    @apply flex justify-center mb-5;
+  }
+
+  .btnPrimary{
+    @apply btn normal-case bg-btnBg border-0  hover:bg-btnBg hover:opacity-70;
+  }
+
+  .gridInfo{
+    @apply grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3  gap-2;
+  }
+  .cardInfo{
+    @apply card w-11/12 bg-base-100 shadow-xl;
+  }
+
+  .cardTitleInfo{
+    @apply card-title text-primary text-2xl;
+  }
+
+  .cardItemInfo{
+    @apply text-secondary-regular text-lg mx-3;
+  }
+
+  .dateInfo{
+    @apply text-secondary-regular font-medium text-lg;
+  }
+
+  .iconInfo{
+    @apply  w-10 h-10 rounded-full p-3 bg-btnBg bg-opacity-20 text-secondary-arrowColor;
+  }
+
+  .modalSize{
+    @apply modal-box w-11/12 max-w-6xl;
+  }
+
+ .modalExit{
+  @apply btn btn-sm  absolute right-5 top-4 bg-btnBg border-none hover:bg-btnBg hover:opacity-80
+ }
+
+ .modalFeatureText{
+  @apply list-disc text-secondary-regular;
+ }
+
+ .modalLeftData{
+  @apply border rounded-md border-secondary-arrowColor bg-btnBg bg-opacity-10 p-5 w-full md:w-2/5 lg:w-2/5 justify-center content-center;
+ }
+ .modalRightData{
+  @apply border rounded-md border-gray-300 bg-white  p-5 w-full md:w-2/5 lg:w-2/5 justify-center content-center;
+ }
+ 
+ .modalBasic{
+  @apply pt-7 w-80 h-20 md:h-32 lg:h-32 md:w-32 lg:w-32 font-bold text-green-600  text-center bg-white rounded-md border-secondary-arrowColor;
+ }
+ .modalPro{
+  @apply pt-7 w-80 h-20 md:h-32 lg:h-32 md:w-32 lg:w-32 font-bold text-orange-600  text-center bg-white rounded-md border-secondary-arrowColor;
+ }
+ .modalEnterprise{
+  @apply pt-7 w-80 h-20 md:h-32 lg:h-32 md:w-32 lg:w-32 font-bold text-red-600  text-center  bg-white rounded-md border-secondary-arrowColor;
+ } 
+
+ .modalAccuracy{
+  @apply absolute top-5 right-4 text-white bg-btnBg px-2 rounded-md;
+ }
+}

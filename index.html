@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="font-work m-5">
+  <h1 class="text-3xl text-center font-semibold text-primary m-5 p-2">
+    AI Universe Hub
+  </h1>
+  <div class="btnCenter" id="btnDiv">
+    <button class="btnPrimary" id="sort-by-date">Sort By Date</button>
+  </div>
+
+
+  <div id="cardsList" class="gridInfo">
+    
+  </div>
+
+ 
+  <div class="btnCenter mt-10">
+    <button class="btnPrimary" id="show-more">Show More</button>
+  </div>
+
+  <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+  <div class="modal">
+    <div class="modalSize">
+      <label for="my-modal-3" class="btn-circle modalExit">✕</label>
+      <div class=" flex-row md:flex justify-center gap-9" id="modalDiv">
+      </div>
+    </div>
+  </div>
+
+
+<!-- <div id="cardsList" class="gridInfo">
+    <div class="cardInfo">
+      <img class="p-3 rounded-3xl" src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Shoes" />
+      <div class="card-body">
+        <h2 class="cardTitleInfo" id="card-title-1">Features</h2>
+        <div class="cardItemInfo" id="card-items">
+          <ol class="list-decimal">
+            <li class="mx-3">text</li>
+          </ol>
+        </div>
+        <span class="border my-5 border-gray-400"></span>
+        <div class="flex justify-between">
+          <div class="flex-col">
+            <h2 class="cardTitleInfo" id="card-title-2">ChatGpt</h2>
+              <div class="inline-flex gap-3 my-2">
+                <img  src="./image/Vector_calendar.png" alt="">
+                <p class="dateInfo" id="date-info">11/01/12</p>
+              </div>
+            </div>
+          <div class="card-actions p-2">
+            <button class="my-5"> <i class="fa-solid fa-arrow-right iconInfo"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+
+  <!-- <div> -->
+  <!-- <label for="my-modal-3" class="btn">open modal</label> -->
+
+<!-- 
+<input type="checkbox" id="my-modal-3" class="modal-toggle" />
+<div class="modal">
+  <div class="modalSize">
+    <label for="my-modal-3" class="btn-circle modalExit">✕</label>
+    
+    <div class="flex justify-center gap-9" id="modalDiv">
+      <div class="modalLeftData w-3/5">
+        
+        <h2 class="text-primary text-xl font-semibold">ChatGPT is an AI-powered chatbot platform that uses OpenAI's GPT technology to simulate human conversation.</h2>
+        <div class="gridInfo my-4 pt-8">
+          <div class="w-10/12"><p class="modalBasic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quam?</p></div> 
+          <div class="w-10/12"><p class="modalPro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quam?</p></div>
+          <div class="w-10/12"><p class="modalEnterprise">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quam?</p></div>
+        </div>
+
+        <div class="flex gap-7 justify-between">
+          <div class="justify-start">
+            <h2 class="cardTitleInfo">Features</h2>
+            <div class="mx-4">
+              <ul class="modalFeatureText">
+                <li class="inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusamus.</li>
+                <li class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusamus.</li>
+                <li class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusamus.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="justify-start">
+            <h2 class="cardTitleInfo">Integration</h2>
+            <div class="mx-4">
+              <ul class="modalFeatureText">
+                <li class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusamus.</li>
+                <li class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusamus.</li>
+                <li class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusamus.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modalRightData">
+        <div class="relative">
+          <img  class="p-3 rounded-3xl" src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+          <div class="modalAccuracy invisible">
+            <p>94% accuracy</p>
+          </div>
+        </div>
+        <div class="text-center">
+          <h2 class="text-primary text-justify font-semibold text-2xl mx-3 px-3">Hi, how are you doing today?</h2>
+          <p class="text-secondary-regular text-justify text-2xl mx-3 p-2">I'm doing well, thank you for asking. How can I assist you today?</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  </div> -->
+
+ 
+    
+  <script src="./js/app.js"></script>
+</body>
+</html>
